@@ -105,7 +105,6 @@ function App() {
           onChange={onTextChange}
          />
       </SearchBox>
-      <h3><a href="">My Favourites</a></h3>
     </Header>
    
     {selectedMovie && <MovieInfoComponent selectedMovie={selectedMovie} onMovieSelect={onMovieSelect}/>}
