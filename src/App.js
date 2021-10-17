@@ -69,12 +69,7 @@ const MovieListContainer = styled.div`
   gap: 25px;
   justify-content: space-evenly;;
 `;
-const Placeholder = styled.img`
-  width: 120px;
-  height: 120px;
-  margin: 150px;
-  opacity: 50%;
-`;
+
 
 function App() {
   const [searchQuery, updateSearchQuery] = useState("");
